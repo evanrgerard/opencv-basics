@@ -8,10 +8,10 @@ cv2.imshow('Original', img)
 img = cv2.line(img,(0,0),(511,511),(255,0,0),5)
 
 # Drawing Rectangle
-img = cv2.rectangle(img,(384,0),(510,128),(0,255,0),3)
+img = cv2.rectangle(img,(100,0),(300,128),(0,255,0),3)
 
 # Drawing Circle
-img = cv2.circle(img,(447,63), 63, (0,0,255), -1)
+img = cv2.circle(img,(100,63), 63, (0,0,255), -1)
 
 # Drawing Ellipse
 img = cv2.ellipse(img,(256,256),(100,50),0,0,180,255,-1)
